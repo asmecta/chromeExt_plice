@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0232)http://10.15.9.108:8080/wffz/loginCAPBE/6881d060ebcc1f96ec86d6ddfcb800a446472e9d403b22a912090b08e6bbad734ed0d4095a6211fbad710ba25e86dabd41c75857585fcc2e889e92fea8c5d2ce666d13a2f783264410f72ad6e18254c56ba74838b2eeb521d2959ec5ac03f8ea -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>上海市公安局有无违法犯罪记录系统—主页</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script>
+        //上下文路径
+        /*<![CDATA[*/
+        var CONTEXT_PATH = "\/wffz\/";
+        /*]]>*/
+
+        var WINDOW_PARENT = window;
+        if(window != window.parent){
+            WINDOW_PARENT = window;
+            while(WINDOW_PARENT!=WINDOW_PARENT.parent){
+                WINDOW_PARENT=WINDOW_PARENT.parent;
+            }
+        }
+        /**
+         * layui表格的默认配置，用于合并配置信息
+         * @type
+         */
+        var layuiTableRenderBaseParam = {
+            response: {
+                statusName: 'retcode' //规定数据状态的字段名称，默认：code
+                ,statusCode: 200 //规定成功的状态码，默认：0
+                ,msgName: 'retmsg' //规定状态信息的字段名称，默认：msg
+                ,dataName: 'retdata' //规定数据列表的字段名称，默认：data
+                ,countName: 'retcount' //规定数据总数的字段名称，默认：count
+            }
+            ,page: true //开启分页
+            ,limits: [10,50,100,1000,5000,10000]  //每页条数的选择项，默认：[10,20,30,40,50,60,70,80,90]。
+            ,limit: 10 //每页默认显示的数量
+            ,cellMinWidth: 60 // 全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            ,method:'post' // 提交方式
+            ,contentType : "application/json"
+        };
+    </script>
+
+</head>
+
+
+
+<body>
+<audio id="ding" src=""></audio>
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header header">
+        <div class="layui-main">
+            <div class="layui-logo"><span>上海市公安局有无违法犯罪记录系统</span></div>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;"><span>张丽玮</span><span class="layui-nav-more"></span></a>
+                    <dl class="layui-nav-child">
+                        <dd lay-unselect=""><a href="javascript:;" onclick="showMyInfo();">基本资料</a></dd>
+                        <dd lay-unselect=""><a href="javascript:;" onclick="showMyPassword();">修改密码</a><hr></dd>
+                        <dd lay-unselect=""><a href="http://10.15.9.108:8080/wffz/logout">退出系统</a></dd>
+                    </dl>
+                </li>
+                <span class="layui-nav-bar"></span></ul>
+        </div>
+    </div>
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <ul class="layui-nav layui-nav-tree site-demo-nav">
+                <li class="layui-nav-item layui-nav-itemed">
+                    <a href="javascript:;">功能菜单<span class="layui-nav-more"></span></a>
+                    <dl class="layui-nav-child">
+                        <dd>
+                            <a href="javascript:;" onclick="showMenuInIframe(this,&#39;/view/wffz/kjzmOne&#39;)">线下开具证明</a>
+                        </dd>
+
+                        <dd>
+                            <a href="javascript:;" onclick="showMenuInIframe(this,&#39;/view/wffz/xxyyclList&#39;)">线下异议处理</a>
+                        </dd>
+
+
+                        <dd>
+                            <a href="javascript:;" onclick="showMenuInIframe(this,&#39;/view/wffz/xssqList&#39;)">线上证明申请<span id="xssq" class="layui-badge">0</span></a>
+                        </dd>
+
+
+                        <dd>
+                            <a href="javascript:;" onclick="showMenuInIframe(this,&#39;/view/wffz/xsyyclList&#39;)">线上异议处理<span id="xsyy" class="layui-badge">0</span></a>
+                        </dd>
+
+
+                        <dd>
+                            <a href="javascript:;" onclick="showMenuInIframe(this,&#39;/view/wffz/kjzmList&#39;)">开具证明查询</a>
+                        </dd>
+                        <dd>
+                            <a href="javascript:;" onclick="showMenuInIframe(this,&#39;/view/wffz/czjlList&#39;)">操作日志管理</a>
+                        </dd>
+
+
+
+
+                    </dl>
+                </li>
+                <span class="layui-nav-bar"></span></ul>
+        </div>
+    </div>
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title site-demo-title">
+            <li class="layui-this" id="nav-title">首页</li>
+        </ul>
+        <div class="layui-body site-demo-body">
+            <div class="layui-tab-item layui-show">
+                <!--                <iframe src="./上海市公安局有无违法犯罪记录系统—主页_files/index.htm" id="layadmin_iframe" name="layadmin_iframe" frameborder="0" class="layadmin-iframe"></iframe>-->
+            </div>
+        </div>
+    </div>
+    <div class="layui-footer footer">
+        <div class="layui-main">
+            <p>© <span>2019</span> <a><span>上海市公安局法制总队</span></a></p>
+        </div>
+    </div>
+</div>
+<button id="dingButton" class="layui-btn layui-btn-sm layui-btn-danger" data-type="uploadButton"></button>
+<footer>
+</footer>
+<div class="layui-layer-move"></div>
+
+</body></html>

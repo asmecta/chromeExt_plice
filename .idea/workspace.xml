@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e733bc7-c099-473f-9ec0-272b58fd53a5" name="Default Changelist" comment="1.0.0 第一版">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/chromeExt_plice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/img/icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/img/icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/img/icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/img/icon_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/lib/jquery-1.7.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/monitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tag/scripts/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/layui.all.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cimJF4q36bY4VFIJ2AYIAlf1Zk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e733bc7-c099-473f-9ec0-272b58fd53a5" name="Default Changelist" comment="" />
+      <created>1591019713712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591019713712</updated>
+      <workItem from="1591019714753" duration="114000" />
+      <workItem from="1591019830849" duration="1127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.0 第一版" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0 第一版" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="112" key="CommitChangelistDialog2" timestamp="1591019913219">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="417" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1591019913219" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1591020238356">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1591020238356" />
+  </component>
+</project>

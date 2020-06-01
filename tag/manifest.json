@@ -1,0 +1,36 @@
+{
+  "name": "警务提醒",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "无违法犯罪记录通知",
+  "icons": {
+    "128": "img/icon_128.png",
+    "48": "img/icon_48.png",
+    "32": "img/icon_32.png",
+    "16": "img/icon_16.png"
+  },
+  "background": {
+    "scripts": [
+      "scripts/base.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "*://*/",
+    "chrome://favicon/",
+    "unlimitedStorage",
+    "notifications"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "content_scripts": [
+    {
+      "js": [
+        "monitor.js"
+      ],
+      "matches": [
+        "http://192.168.0.44:88/*",
+        "<all_urls>"
+      ]
+    }
+  ]
+}
