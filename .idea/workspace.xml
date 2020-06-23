@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e733bc7-c099-473f-9ec0-272b58fd53a5" name="Default Changelist" comment="1.0.0 第一版">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/chromeExt_plice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/img/icon_128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/img/icon_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/img/icon_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/img/icon_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/lib/jquery-1.7.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/monitor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tag/scripts/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/上海市公安局有无违法犯罪记录系统—主页_files/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +38,8 @@
       <updated>1591019713712</updated>
       <workItem from="1591019714753" duration="114000" />
       <workItem from="1591019830849" duration="1127000" />
+      <workItem from="1591754980232" duration="228000" />
+      <workItem from="1591755550452" duration="142000" />
     </task>
     <servers />
   </component>
